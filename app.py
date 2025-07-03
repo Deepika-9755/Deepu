@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, session
 import boto3
 import smtplib
-import loggin
+import logging
 from email.mime.text import MIMEText
 from datetime import datetime
 import uuid
